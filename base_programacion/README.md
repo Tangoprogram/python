@@ -18,10 +18,10 @@ base_programacion/
 │   ├── security_utils.py
 │   └── external_utils.py
 │
-├── plantilla.py          # Script plantilla para nuevos programas
-├── requirements.txt      # Archivo de dependencias
-├── README.md             # Documentación principal
-└── (otros archivos: setup.py, pyproject.toml, tests/, etc.)
+├── plantilla.py         # Script plantilla para nuevos programas
+├── ejecutar.bat         # Script batch para ejecutar programas fácilmente
+├── requirements.txt     # Archivo de dependencias
+└── README.md            # Documentación principal
 ```
 
 ## ¿Cómo usar esta plantilla?
@@ -45,6 +45,10 @@ base_programacion/
     > **Nota:**
     > Las librerías estándar de Python (`os`, `sys`, `logging`, `tkinter`, etc.) **no requieren instalación** adicional.
     > El archivo `requirements.txt` solo incluye las librerías externas necesarias.
+
+4. **Para ejecutar programas fácilmente:**
+   - Usa el script `ejecutar.bat` para lanzar tus programas Python sin necesidad de abrir terminal.
+   - Útil para usuarios no técnicos o para crear atajos de escritorio.
 
 ## Características principales de fpack
 - **file_utils**: Funciones para manejo de archivos y datos, incluyendo protección de archivos Excel.
